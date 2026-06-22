@@ -1,0 +1,14 @@
+# Raw data — excluded for confidentiality
+*.csv
+*.xlsx
+*.xls
+data/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
