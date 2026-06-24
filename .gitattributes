@@ -1,1 +1,2 @@
 *.md linguist-documentation=true
+*.gitignore linguist-documentation=true
