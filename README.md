@@ -94,6 +94,23 @@ This separates *structural pricing problems* (high severity) from *operational d
 - Frequency vs. severity decomposition framework
 
 ---
+## Dashboard Overview
+Built an executive Tableau dashboard to analyze bid performance, geographic patterns, and competitor pricing behavior.
+
+### Key Views
+| # | View | Description |
+|---|------|-------------|
+| 1 | Geographic Distribution Map | Visualizes where underbidding events are concentrated across regions |
+| 2 | Bomb % vs. Win % by Project Type | Compares underbidding frequency against win rate for each project category |
+| 3 | Avg % Bid Difference by Competitor | Ranks competitors by how aggressively they underbid when runner-up |
+| 4 | Project Type × Region Heatmap | Surfaces which project categories dominate in each geographic region |
+| 5 | Contract Volume by Bid Winner | Shows bid count and total contract value won across the competitive landscape |
+
+### Data Note
+Due to confidentiality agreements, underlying data and Tableau workbook are not publicly available.
+All company names, competitor names, and project identifiers have been anonymized in this documentation.
+
+---
 
 ## Key Findings
 
@@ -113,7 +130,10 @@ This separates *structural pricing problems* (high severity) from *operational d
 1. **Prioritize pricing review** for Major Reconstruction and Rehab — Mill & Overlay / FDR categories
 2. **Set pricing guardrails** (floor thresholds) for high-frequency underbid project types
 3. **Investigate historical patterns** in high-severity categories — are there regional or seasonal drivers?
-4. **Build a monitoring dashboard** to track underbid rate and average loss per project type on an ongoing basis
+4. **Leverage the executive dashboard** for ongoing competitive intelligence, including:
+   - Year-over-year trends in competitor bid volume and contract wins
+   - Competitor specialization by project type
+   - Geographic footprint of key competitors
 
 ---
 

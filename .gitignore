@@ -3,6 +3,9 @@
 *.xlsx
 *.xls
 data/
+*.twbx
+*.twbr
+.Rhistory
 
 # OS files
 .DS_Store
